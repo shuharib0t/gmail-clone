@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Gmail</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <a class="logo-gmail" href="/"><img src="images/logo_gmail_lockup_default_2x_r5.svg" alt="logo do gmail"></a>
+      <nav>
+        <span class="inbox selected" href="/"><img class="icon-left" src="images/icons8_inbox_96px_3.svg" alt="icone de bau aberto">Inbox 
+          <span class="span-text">&nbsp;(83)</span></span>
+  
+        <div class="starred" href="/"><img class="icon-left" src="images/icons8_star_96px.svg" alt="icone de estrela">
+          <select> 
+            <option value="0">Starred</option> 
+            <option value="">Starred</option> 
+            <option value="">Starred</option> 
+            <option value="">Starred</option>
+          </select>
+        </div> 
+  
+        <span class="sent" href="/"><img class="icon-left" src="images/icons8_sent_96px_1.svg" alt="icone de ponta de flecha para a direita">Sent</span>
+  
+        <span class="drafts" href="/"><img class="icon-left" src="images/icons8_file_96px.svg" alt="icone de página">Drafts
+          <span class="span-text">&nbsp;(4)</span></span>
+  
+        <span class="labels" href="/"><img class="icon-left" src="images/icons8_tag_window_96px_1.svg" alt="icone de pointer para a direita">Labels
+          <img class="icon-right" src="images/icons8_expand_arrow_96px.svg" alt="icone de flecha apontando para baixo"><img class="icon-right-up hide" src="images/icons8_expand_arrow_up_96px.svg" alt="icone de uma flecha apontando para cima"></span>
+  
+        <span class="more" href="/">More
+          <img class="icon-right" src="images/icons8_expand_arrow_96px.svg" alt="icone de flecha apontando para baixo"><img class="icon-right-up hide" src="images/icons8_expand_arrow_up_96px.svg" alt="icone de uma flecha apontando para cima"></span>
+      </nav>
+  
+      <a class="compose" href=""><img class="icon-left" src="images/icons8-edit.svg" alt="icone de lápis">Compose</a>
+  
+      <a class="perfil" href=""><img src="images/Avatar.png" alt="foto de perfil"></a>
+    </header>
+    <main>
+      <div id="list-wrapper">
+        <div id="search-container">
+          <a href="/"><img src="images/icons8_search_144px.svg" alt="icone de lupa"></a>
+          <label class="sr-only" for="search">Search Messages</label>
+          <input class="search" type="text" placeholder="Search Messages">
+          <a href="/"><img src="images/icons8_adjust_96px.svg" alt="icone referênciando ajustes"></a>
+        </div>  
+  
+        <div id="primary-container">
+          <a class="primary" href="">Primary <img class="icon-right" src="images/icons8_expand_arrow_96px.svg" alt="icone de flecha apontando para baixo"></a> 
+          <a href=""><span class="new-email">32+ New</span> </a>
+        </div>
+  
+        <div id="total-emails">
+          <p>1-50 of 2,904</p> 
+      
+          <div class="arrows">
+            <a class="backward" href=""><img src="images/icons8_back_96px.svg" alt="icone de flecha apontando para a esquerda"></a> 
+            <a class="forward" href=""><img src="images/icons8_forward_96px.svg" alt="icone de flecha apontando para a direita"></a>
+          </div>
+        </div>
+        
+        <div class="emails">
+          <a class="email" href="/">
+            <div class="rectangle"></div> 
+            <img src="images/youtube-tv-24342.svg" alt="logo do youtube">
+  
+            <div class="not-readed">
+              <div class="title">
+                <h2 class="from">Youtube</h2> 
+                <h2 class="date">Apr 7</h2>
+              </div>
+              <h1>Ready to try out hassle-free TV? Get 3...</h1>
+              <p>Get a quick and easy access to tons of entert...</p>
+            </div>
+          </a>
+  
+          <a class="email" href="/">
+            <img src="images/Avatar-2.png" alt="foto de Abram">
+  
+            <div class="readed">
+              <div class="title">
+                <h2 class="from">Abram Tolliver</h2>
+                <h2 class="date">Apr 6</h2>
+              </div>
+              <h1>Are you ready for Trip?</h1>
+              <p>Hey Sol, I hope you are ready. I done my part a...</p>
+            </div>
+          </a>
+  
+          <a class="email" href="/">
+            <img src="images/Avatar-3.png" alt="foto de Elias">
+  
+            <div class="not-readed">
+              <div class="title">
+                <h2 class="from">Elias Tinsley</h2> 
+                <h2 class="date">Apr 6</h2>
+              </div>
+              <h1>The Interference of Minor Agenda</h1>
+              <p>The final report done the research team organ...</p>
+              <div class="pdf-container">
+                <span class="pdf"><img src="images/icons8_pdf_96px.svg" alt="icone de pdf">Income report...</span>
+                <span class="archives">+3</span>
+              </div>
+            </div>
+          </a>
+  
+          <a class="email" href="/">
+            <img src="images/Avatar-4.png" alt="foto de Evangeline">
+            <div class="not-readed">
+              <div class="title">
+                <h2 class="from">Evangeline Michel</h2>
+                <div class="favorites">
+                  <img class="" src="images/icons8_star_filled_96px.svg" alt="icone de estrela">
+                </div>  
+                <h2 class="date">Apr 5</h2>
+              </div>
+              <h1>Is the design of the project finished?</h1>
+              <p>Hey Sol, I want to ask you the design for proje...</p>
+            </div>
+          </a>
+  
+          <a class="email" href="/">
+            <img src="images/Avatar-Dribbble.png" alt="logo do dribbble">
+  
+            <div class="not-readed">
+              <div class="title">
+                <h2 class="from">Dribbble</h2> 
+                <div class="options">
+                  <img class="checked" src="images/icons8_checked_checkbox_96px.svg" alt="icone de checked">
+                  <img class="favorite" src="images/icons8_star_96px.svg" alt="icone de estrela">
+                  <img class="opened-email" src="images/icons8_open_envelope_96px.svg" alt="icone de envelope aberto">
+                  <img class="closed-box" src="images/icons8_cardboard_box_96px.svg" alt="icone de caixa fechada">
+                  <img class="alert" src="images/icons8_spam_96px.svg" alt="icone de spam">
+                  <img class="trash" src="images/icons8_trash_96px.svg" alt="icone de lixeira">
+                </div>
+              </div>
+              <h1>Top Liked UI projects on this week</h1>
+              <p>Hello Solomon, this is a top liked projects on b...</p>
+            </div>
+          </a>
+
+          <a class="email" href="/">
+            <img src="images/Avatar-2.png" alt="foto de Abram">
+  
+            <div class="not-readed">
+              <div class="title">
+                <h2 class="from">Abram Tolliver</h2>
+                <h2 class="date">Apr 6</h2>
+              </div>
+              <h1>Lorem Ipsum?</h1>
+              <p>Hey Sol, Lorem Ipsum...</p>
+            </div>
+          </a>
+        </div>
+      </div>
+  
+      <div class="main-wrapper">
+        <div class="infos">
+          <img src="images/youtube-tv-24342.svg" alt="logo do youtube">
+          <div class="from">
+            <h1>Youtube Tv <a class="info-link" href="/"><span>no-reply@youtube.com </span><img src="images/icons8_expand_arrow_96px.svg" alt=""></a></h1>
+            <span>Fri, Apr 7, 9:57 PM (2 days ago)</span>
+          </div>
+
+          <div class="icons-options">
+            <a class="reply-arrow" href=""><img src="images/icons8_reply_arrow_96px_1.svg" alt="icone de seta para a esquerda"></a>
+            <a class="forward-arrow" href=""><img src="images/icons8_forward_arrow_96px_2.svg" alt="icone de seta para a direita"></a>
+            <a class="favorite-icon" href=""><img src="images/icons8_star_96px.svg" alt="icone de estrela"></a>
+            <a class="trash-icon" href=""><img src="images/icons8_trash_96px.svg" alt="icone de lixeira"></a>
+            <a class="more-icon" href=""><img src="images/icons8_more_96px_1.svg" alt="icone de reticências"></a>
+          </div>
+        </div>
+
+        <div class="title">
+          <h1>Ready to try out hassle-free TV? Get 3 weeks on us</h1>
+        </div>
+
+        <div class="description">
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-banner.svg" alt="youtube banner"></a>
+
+          <h1>Enjoy 3 free* weeks of TV made easy</h1>
+
+          <span>We’re talking 100+ live channels, stacked on-demand content, and 6 household accounts with custom Libraries, all included in your membership. On top of that, there are no hidden fees or annual contracts.</span>
+          
+          <a class="button" target="_blank" href="https://www.youtube.com/premium">Try 3 week free</a>
+
+          <footer>
+            <img src="images/youtube-logo-custom.svg" alt="logo customizada do youtube">
+
+            <span class="loc">© 2023 Google LLC d/b/a YouTube 901 Cherry Ave, San Bruno, CA 94066</span>
+
+            <a href="/">Unsubscribe</a>
+          </footer>
+         
+        </div>
+        <div class="buttons">
+          <a class="reply-button" href="/"><img src="images/icons8_reply_arrow_96px_1.svg" alt="icone de seta para a esquerda">Reply</a>
+          <a class="forward-button" href="/"><img src="images/icons8_forward_arrow_96px_2.svg" alt="icone de seta para a direita">Forward</a>
+        </div>
+      </div>
+
+      <div class="section-links">
+        <a target="_blank" href="https://meet.google.com/"><img src="images/icons8_google_meet_96px.png" alt="icone do google meet"></a>
+        <a target="_blank" href="https://keep.google.com/"><img src="images/google-keep.png" alt="icone do google keep"></a>
+        <a target="_blank" href="https://www.google.com/intl/pt-br/drive/about.html"><img src="images/icons8_google_drive_96px.png" alt="icone do google drive"></a>
+        <a target="_blank" href="https://contacts.google.com/"><img src="images/Google_Contacts_icon_(2022).svg.svg" alt="icone de contatos"></a>
+        <a target="_blank" href="https://calendar.google.com/"><img src="images/icons8_google_calendar_96px.png" alt="icone do calendário do google"></a>
+        <a target="_blank" href="https://support.google.com/tasks/"><img src="images/Google_Tasks_2021.svg.svg" alt="icone de lupa"></a>
+      </div>
+    </main>
+  </div>
+
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
